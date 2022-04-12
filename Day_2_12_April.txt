@@ -1,0 +1,41 @@
+Javascript vs NodeJS:
+
+1. Javascript is used for writing scripts on websiite
+2. used on the client side
+3.JS can be run on any browser (spidermonkey-firefox, JS core safari)
+4.JS used in front end development
+5.can only be run on the browser
+
+
+NodeJS
+
+1.NodeJS is a javascript runtime envinorment
+2. can run JS outside browser using nodejs
+3. used on the server side
+4. nodejs used in server side development
+5. V8 is the JS engine inside of node.js that parses and runs JS.
+ 
+
+5 points from video:
+
+1.HTML is forgiving in nature, parsing isnt straght forward
+2. using script tag at the bottom: parse is uninterrupted, faster to render.
+
+
+
+code exe:
+
+typeof(1)    number
+typeof(1.1)  number
+typeof('1.1') string
+typeof(true)  boolean
+typeof(null)  object
+typeof(undefined) undefined
+typeof([])    object
+typeof({})    object
+typeof(NaN)   number
+
+
+Prototype:
+
+JavaScript is a prototype based language, so, whenever we create a function using JavaScript, JavaScript engine adds a prototype property inside a function, Prototype property is basically an object (also known as Prototype object), where we can attach methods and properties in a prototype object, which enables all the other objects to inherit these methods and properties.
